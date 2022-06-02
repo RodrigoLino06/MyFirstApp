@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+
+    <TextView
+        android:id="@+id/txtTextA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Texto A"
+        android:textColor="#FF6600"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtTextB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTextA"
+        android:text="Texto B"
+        android:textColor="#FFCC0E0E"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtTextC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTextD"
+        android:layout_toRightOf="@+id/txtTextB"
+        android:text="Texto C"
+        android:textColor="#DD2B988F"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtTextD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/txtTextA"
+        android:text="Texto D"
+        android:textColor="#8AB85B"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
