@@ -14,7 +14,7 @@
         android:theme="@style/Theme.MyApp"
         tools:targetApi="31">
         <activity
-            android:name=".SplashActivity"
+            android:name=".SplashActivity" android:theme="@style/temaSemBarra"
             android:exported="false" />
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
